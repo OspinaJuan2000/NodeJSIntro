@@ -7,7 +7,7 @@ const crearArchivo = (base, limite) => {
 
         if (!Number(base)) {
             reject(`No es un número`);
-            return;
+            return 0;
         }
 
         let data = '';
